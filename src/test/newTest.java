@@ -1,7 +1,7 @@
 package test;
 
 import java.util.Random;
-import java.util.concurrent.TimeUnit;
+//import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 
@@ -16,13 +16,7 @@ public void newTest() {
 	
 	int count = 10;
 	
-	while (count < 15) {
-//		TimeUnit.SECONDS.sleep(1);
-//		try {
-//		    Thread.sleep(4000);
-//		} catch(InterruptedException ex) {
-//		    Thread.currentThread().interrupt();
-//		}	
+	while (count < 15) {	
 		driver.switchTo().defaultContent();
 	randomGenerator();
 	count++;
