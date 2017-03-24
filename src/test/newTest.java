@@ -27,6 +27,7 @@ public void newTest() {
 }
 
 
+// randomGenerator switches between creating a new account and a new note
 public void randomGenerator() {
 	
 	Random ifrand = new Random();
