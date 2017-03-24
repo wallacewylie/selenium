@@ -40,7 +40,6 @@ public void randomGenerator() {
 	    newNote();	
 	}
 	System.out.println(a);
-
 }
 
 public void newAccount() {
@@ -55,7 +54,7 @@ public void newAccount() {
 	int o = rand.nextInt(500) + 1;
 	
 	String firstName = "Firstname" + m;
-	String lastName = "Lastname" + n;
+	String lastName = "Testname" + n;
 	String email = "randomemail" + o + "@mail.com";
 	String phone = "651-111-0000";
 	
