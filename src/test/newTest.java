@@ -17,7 +17,8 @@ public void newTest() {
 	int count = 10;
 	
 	while (count < 15) {	
-		driver.switchTo().defaultContent();
+		
+	driver.switchTo().defaultContent();
 	randomGenerator();
 	count++;
 	
@@ -81,8 +82,6 @@ public void newNote() {
 	
 	driver.findElement(By.id("notesInput")).sendKeys(testWords);
 	driver.findElement(By.id("saveButton")).click();
-//	driver.findElement(By.id("notesInput")).clear();
-//	driver.findElement(By.id("saveButton")).click();
 	
 	driver.switchTo().defaultContent();
 	
