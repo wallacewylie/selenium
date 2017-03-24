@@ -40,6 +40,7 @@ public void randomGenerator() {
 	}  
 		else {
 	    newNote();	
+	    
 	}
 	System.out.println(a);
 }
