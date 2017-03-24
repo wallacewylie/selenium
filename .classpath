@@ -5,5 +5,31 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/selenium"/>
 	<classpathentry kind="lib" path="//wnnas1/home$/wjwylie/Tools/Junit/hamcrest-core-1.3.jar"/>
 	<classpathentry kind="lib" path="//wnnas1/home$/wjwylie/Tools/Junit/junit-4.12.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Referenced Libraries"/>
+	<classpathentry kind="lib" path="U:/Tools/JRE_System_Library/access-bridge-32.jar"/>
+	<classpathentry kind="lib" path="U:/Tools/JRE_System_Library/charsets.jar"/>
+	<classpathentry kind="lib" path="U:/Tools/JRE_System_Library/cldrdata.jar"/>
+	<classpathentry kind="lib" path="U:/Tools/JRE_System_Library/deploy.jar"/>
+	<classpathentry kind="lib" path="U:/Tools/JRE_System_Library/dnsns.jar"/>
+	<classpathentry kind="lib" path="U:/Tools/JRE_System_Library/jaccess.jar"/>
+	<classpathentry kind="lib" path="U:/Tools/JRE_System_Library/javaws.jar"/>
+	<classpathentry kind="lib" path="U:/Tools/JRE_System_Library/jce.jar"/>
+	<classpathentry kind="lib" path="U:/Tools/JRE_System_Library/jfr.jar"/>
+	<classpathentry kind="lib" path="U:/Tools/JRE_System_Library/jfxrt.jar"/>
+	<classpathentry kind="lib" path="U:/Tools/JRE_System_Library/jfxswt.jar"/>
+	<classpathentry kind="lib" path="U:/Tools/JRE_System_Library/jsse.jar"/>
+	<classpathentry kind="lib" path="U:/Tools/JRE_System_Library/local_policy.jar"/>
+	<classpathentry kind="lib" path="U:/Tools/JRE_System_Library/localedata.jar"/>
+	<classpathentry kind="lib" path="U:/Tools/JRE_System_Library/management-agent.jar"/>
+	<classpathentry kind="lib" path="U:/Tools/JRE_System_Library/nashorn.jar"/>
+	<classpathentry kind="lib" path="U:/Tools/JRE_System_Library/plugin.jar"/>
+	<classpathentry kind="lib" path="U:/Tools/JRE_System_Library/resources.jar"/>
+	<classpathentry kind="lib" path="U:/Tools/JRE_System_Library/rt.jar"/>
+	<classpathentry kind="lib" path="U:/Tools/JRE_System_Library/sunec.jar"/>
+	<classpathentry kind="lib" path="U:/Tools/JRE_System_Library/sunjce_provider.jar"/>
+	<classpathentry kind="lib" path="U:/Tools/JRE_System_Library/sunmscapi.jar"/>
+	<classpathentry kind="lib" path="U:/Tools/JRE_System_Library/sunpkcs11.jar"/>
+	<classpathentry kind="lib" path="U:/Tools/JRE_System_Library/US_export_policy.jar"/>
+	<classpathentry kind="lib" path="U:/Tools/JRE_System_Library/zipfs.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

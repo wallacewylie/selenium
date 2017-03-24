@@ -83,7 +83,8 @@ public void newNote() {
 	driver.findElement(By.id("ext-gen97")).click();
 	driver.switchTo().frame("scc_widget_Notes");
 	
-	String testWords = "This is a test. ";
+	String testWords = " This is a test. ";
+	
 	
 	driver.findElement(By.id("notesInput")).sendKeys(testWords);
 	driver.findElement(By.id("saveButton")).click();
