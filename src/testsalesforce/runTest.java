@@ -1,4 +1,4 @@
-package test;
+package testsalesforce;
 
 import java.util.Random;
 
@@ -16,7 +16,7 @@ public class runTest extends DriverSetUp {
 	public void runTest() 
 	{
 		
-		DriverSetUp.setUpDriver();
+	//	DriverSetUp.setUpDriver();
 		
 		driver.findElement(By.linkText("wallace.wylie@wnins.com.devint")).click();
 		driver.findElement(By.id("Login")).click();

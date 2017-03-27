@@ -1,5 +1,6 @@
-package test;
+package testsalesforce;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
@@ -10,11 +11,12 @@ public class DriverSetUp {
 	
 	public static WebDriver driver;
 	
-	//@Before
-	public static void setUpDriver () {
+	@Before
+	public void setUpDriver () {
 	System.setProperty("webdriver.ie.driver", "U:\\Tools\\WebDrivers\\IE\\x32\\IEDriverServer.exe");
 	 driver = new InternetExplorerDriver();
 	 driver.get("https://test.salesforce.com/");
+	 driver.manage().window().maximize();
 	}
 	 
 //	@Test
@@ -23,10 +25,10 @@ public class DriverSetUp {
 //		setUpDriver();
 //	}
 	
-	@Test
-	public void newTest()
+	@After
+	public void cleanUp()
 	{
-		setUpDriver();
+		driver.close();
 	}
 }
 

@@ -1,22 +1,26 @@
-package test;
+package testsalesforce;
 
 import java.util.Random;
 //import java.util.concurrent.TimeUnit;
 
+import org.junit.Test;
 import org.openqa.selenium.By;
+
+import testsalesforce.DriverSetUp;
 
 public class newTest extends DriverSetUp {
 
+	@Test
 public void newTest() {
 
-	DriverSetUp.setUpDriver();
+//	DriverSetUp.setUpDriver();
 	driver.findElement(By.linkText("wallace.wylie@wnins.com.staging")).click();
 	driver.findElement(By.id("Login")).click();
 	driver.findElement(By.linkText("Remind Me Later")).click();
 	
 	int count = 10;
 	
-	while (count < 15) {	
+	while (count < 20) {	
 		
 	driver.switchTo().defaultContent();
 	randomGenerator();
@@ -61,8 +65,12 @@ public void newAccount() {
 	String email = "randomemail" + o + "@mail.com";
 	String phone = "651-111-0000";
 	
-	driver.findElement(By.id("FirstName")).sendKeys(firstName);
-	driver.findElement(By.id("LastName")).sendKeys(lastName);
+	//driver.findElement(By.id("FirstName")).sendKeys(firstName);
+	//driver.findElement(By.id("LastName")).sendKeys(lastName);
+	
+	CreateNewAccount.enter_FirstName(firstName, driver);
+	CreateNewAccount.enter_LasttName(lastName, driver);
+	
 	driver.findElement(By.id("Email")).sendKeys(email);
 	driver.findElement(By.id("Phone")).sendKeys(phone);
 	
