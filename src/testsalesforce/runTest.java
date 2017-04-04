@@ -8,15 +8,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class runTest extends DriverSetUp {
-
-	// WebDiver d = driver;
 	
 	@Test
 	//public void runTest(WebDriver driver)
 	public void runTest() 
 	{
-		
-	//	DriverSetUp.setUpDriver();
 		
 		driver.findElement(By.linkText("wallace.wylie@wnins.com.devint")).click();
 		driver.findElement(By.id("Login")).click();
