@@ -51,7 +51,7 @@ public void randomGenerator() {
 
 public void newAccount() {
 	
-	driver.findElement(By.className("x-btn-mc")).click();
+	driver.findElement(By.className("x-btn-text")).click();
 	driver.switchTo().frame("scc_widget_CreateAccount");
 	
 	Random rand = new Random();
@@ -79,7 +79,7 @@ public void newAccount() {
 	
     driver.switchTo().defaultContent();
 	
-    driver.findElement(By.className("x-btn-mc")).click();
+    driver.findElement(By.className("x-btn-text")).click();
 }
 
 public void newNote() {
