@@ -16,7 +16,7 @@ public class runTest extends DriverSetUp {
 		
 		driver.findElement(By.linkText("wallace.wylie@wnins.com.devint")).click();
 		driver.findElement(By.id("Login")).click();
-		driver.findElement(By.linkText("Remind Me Later")).click();
+		//driver.findElement(By.linkText("Remind Me Later")).click();
 		driver.findElement(By.linkText("Customers")).click();
 		driver.findElement(By.id("fcf")).click();
 		driver.findElement(By.cssSelector("#fcf > option:nth-child(4)")).click();
